@@ -1,0 +1,9 @@
+# Fichiers et dossiers généraux
+.DS_Store
+*.pyc
+__pycache__/
+
+# Environnement virtuel Python
+.venv/
+venv/
+env/
