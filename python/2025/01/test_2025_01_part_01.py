@@ -1,8 +1,5 @@
 import pytest
-import os
-from solution import part1, part2
-
-BASE_DIR = os.path.dirname(__file__)
+from solution_01 import part1
 
 
 def test_to_right_zero_targeting_dial():
@@ -73,15 +70,3 @@ def test():
 
     # Assert
     assert result == 3
-
-
-@pytest.mark.skip()
-def test_part2():
-    # Arrange
-    data: list[str] = ["1", "2"]
-
-    # Act
-    result = part2(data)
-
-    # Assert
-    assert result == 2

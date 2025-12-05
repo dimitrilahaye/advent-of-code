@@ -2,9 +2,9 @@
 
 ```bash
 # launch project
-cd python
-python3 -m venv .venv
-source .venv/bin/activate
+cd python && \
+python3 -m venv .venv && \
+source .venv/bin/activate && \
 pip install -r requirements.txt
 
 # launch a day

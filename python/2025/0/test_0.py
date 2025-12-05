@@ -1,6 +1,6 @@
 import pytest
 import os
-from solution import part1, part2
+from solution_0 import part1, part2
 
 BASE_DIR = os.path.dirname(__file__)
 
